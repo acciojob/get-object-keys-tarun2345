@@ -6,3 +6,5 @@ let student={
 student.prototype.getKeys = function () {
 	return Object.keys(student);
 }
+
+let ans = student.getKeys();
